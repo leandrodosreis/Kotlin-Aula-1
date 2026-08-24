@@ -324,12 +324,123 @@ fun main(){
 //
 //}
 
-fun main (){
-    var frutas = listOf("banana","maça","maça")
+//fun main (){
+//    var frutas = listOf("banana","maça","maça")
+//
+//    println(frutas.size)
+//    println(frutas.first())
+//    println(frutas.last())
+//    println(frutas.contains("maça"))
+//
+//}
 
-    println(frutas.size)
-    println(frutas.first())
-    println(frutas.last())
-    println(frutas.contains("maça"))
+//fun main (){
+//    var carros = mutableListOf("corsa", "celta")
+//
+//    println(carros.size)
+//    println(carros.last())
+//    println(carros.add("fusca"))
+//    println(carros.last())
+//
+//}
 
-}
+//set permite ter somente um item igual na lista
+//fun main() {
+//    val cores = setOf("azul", "verde", "azul")
+//    println(cores)
+////    cores.add("amarelo") //nao funciona
+////    cores.remove("verde") //nao funciona
+//}
+//
+//fun main() {
+//    val cores = mutableSetOf("azul", "verde", "azul")
+//    println(cores)
+//    cores.add("amarelo")
+//    cores.add("azul")
+//    cores.remove("verde")
+//    println(cores)
+//}
+
+//
+//fun main() {
+//    val pessoas = mapOf(
+//        "joao" to 25,
+//        "maria" to 26
+//    )
+//
+//    println(pessoas["joao"])
+//    println(pessoas["pedro"])
+////    pessoas["maria"] = 27
+//}
+
+//fun main() {
+//    val produtos = mutableMapOf(
+//        "pc" to "computador",
+//        "cl" to "celular"
+//    )
+//
+//    println(produtos["pc"])
+//    produtos["ms"] = "mouse"
+//    produtos.remove("pc")
+//    println(produtos)
+//}
+
+
+//fun main() {
+//    var i = 0
+//
+//    while (i < 10) {
+//        println(i)
+//
+//        i++
+//    }
+//}
+
+//fun main() {
+//    1..5
+//    1 until 5
+//    5 downTo 1
+//    1..10 step 2
+//}
+
+//fun main() {
+//    for (i in 1..10) {
+//        println(i)
+//    }
+//}
+
+//fun main() {
+//
+//    val carros = listOf("corsa","celta","fusca")
+//    for (carro in carros) {
+//        println(carro)
+//    }
+//}
+
+//fun main() {
+//
+//    val carros = listOf("corsa","celta","fusca")
+//    for (indice in carros.indices) {
+//        println(indice)
+//    }
+//}
+
+//fun main() {
+//
+//    val carros = listOf("corsa","celta","fusca")
+//    for ((indice, carro) in carros.withIndex()) {
+//        println("${carro} = ${indice}")
+//    }
+//}
+
+//fun main() {
+//
+//    val idade = 15
+//
+//    when (idade) {
+//        in 0..12 -> println("criança")
+//        in 13..17 -> println("adolescente")
+//        in 18..59 -> println("adulto")
+//        else -> println("idoso")
+//    }
+//}
