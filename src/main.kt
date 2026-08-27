@@ -444,3 +444,39 @@ fun main(){
 //        else -> println("idoso")
 //    }
 //}
+
+//fun main() {
+//    val numeros = (1..6).toList()
+//
+//    val somaPares = numeros.filter { numero -> numero % 2 == 0 }
+//
+//    println(somaPares)
+//
+//
+//    //    val numeros = arrayOf(1, 2, 3, 4, 5, 6)
+////
+////    val somaPares = numeros.filter { it % 2 == 0 }.sum()
+////
+////    println(somaPares)
+//}
+
+//
+//fun main() {
+//    val numeros = (1..6).toList()
+//
+//    val dobro = numeros.map { numero -> numero * 2}
+//
+//    println(dobro)
+//
+//
+//}
+
+fun main() {
+    val numeros = (1..).toList()
+
+    val soma = numeros.reduce { acumulator, numero -> acumulator + numero}
+
+    println(soma)
+
+
+}
