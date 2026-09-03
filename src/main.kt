@@ -1,4 +1,6 @@
 import com.sun.jdi.DoubleType
+import model.Carro
+import model.CarroTunado
 
 //Comentarios
 
@@ -471,12 +473,57 @@ fun main(){
 //
 //}
 
+//fun main() {
+//    val numeros = (1..5).toList()
+//
+//    val soma = numeros.reduce { acumulator, numero -> acumulator + numero}
+//
+//    println(soma)
+//
+//
+//}
+
+//fun main() {
+//    val numeros = (1..5).toList()
+//
+//    val result = numeros.filter { it % 2 == 0 }
+//                        .map { it * 2 }
+//                        .reduce { acc, n -> acc + n }
+//
+//    println(result)
+//
+//
+//}
+
+
 fun main() {
-    val numeros = (1..).toList()
+    val carro = Carro()
+    val carroTunado = CarroTunado()
+//    val carro2 = Carro("Veloster", 2000, portas = 3)
 
-    val soma = numeros.reduce { acumulator, numero -> acumulator + numero}
+    carro.modelo = "fusca"
+    carro.ano = 1994
 
-    println(soma)
+    carroTunado.modelo = "fusca tunado"
+    carroTunado.ano = 2000
+    carroTunado.ranking = 'S'
+
+
+    println(carro.modelo)
+    println(carro.ano)
+    carro.acelerar()
+    
+
+    println(carroTunado.modelo)
+    println(carroTunado.ano)
+    println(carroTunado.ranking)
+    carroTunado.acelerar()
+
+
+//    println(carro.consultar())
+
+//    println(carro.portas)
+//    println(carro2.portas)
 
 
 }
